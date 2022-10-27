@@ -3,6 +3,12 @@
   margin: 0;
   box-sizing: border-box;
 }
+@media (max-width: 500) {
+  .main-container {
+    display: block;
+    width: 345px;
+  }
+}
 
 .main-container {
   /* width: 90%; */
@@ -12,16 +18,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-inline: auto;
   /* margin-block: 80px; */
 
   padding-block: 1em;
 }
 
-.container {
-  width: 35%;
-  margin-inline: auto;
-  /* margin-block: 2em */
-}
+/* .container { */
+/* width: 35%; */
+
+/* margin-block: 2em */
+/* } */
 
 .container__flex {
   display: flex;
