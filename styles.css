@@ -9,9 +9,9 @@
   width: 100%;
   max-width: 1440px;
   background-color: hsl(222, 26%, 31%);
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
   margin-inline: auto;
   /* margin-block: 80px; */
 
