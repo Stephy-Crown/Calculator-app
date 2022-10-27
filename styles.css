@@ -1,0 +1,192 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* media queries */
+@media (max-width: 500px) {
+  section {
+    width: 345px;
+  }
+  .header__flex {
+    width: 345px;
+  }
+  .container__flex {
+    width: 345px;
+  }
+
+  .main-container {
+    width: 500px;
+  }
+}
+
+.main-container {
+  /* width: 90%; */
+  width: 100%;
+  max-width: 1440px;
+  background-color: hsl(222, 26%, 31%);
+  margin-inline: auto;
+  /* margin-block: 80px; */
+
+  padding-block: 1em;
+}
+
+.container {
+  width: 35%;
+  margin-inline: auto;
+  /* margin-block: 2em */
+}
+
+.container__flex {
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+/* Header styles */
+.header__flex {
+  display: flex;
+  justify-content: space-between;
+}
+.header__flex--one {
+  display: flex;
+  align-items: center;
+}
+
+.theme {
+  color: white;
+  padding-right: 5px;
+  font-weight: bold;
+}
+.cal {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+.input {
+  height: 20px;
+  width: 20px;
+  appearance: none;
+  background-color: hsl(6, 63%, 50%);
+  border-radius: 10px;
+  opacity: 0;
+}
+.input:hover {
+  cursor: pointer;
+}
+
+.tri-state-toggle {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 50px;
+  background-color: hsl(223, 31%, 20%);
+}
+/* .tri-state-toggle:hover {
+  cursor: pointer;
+} */
+
+/* Section styles */
+
+.grid-container {
+  display: grid;
+  border-radius: 13px;
+  grid-template-columns: repeat(4, 1fr);
+  padding-block: 30px;
+  background-color: hsl(223, 31%, 20%);
+  margin-top: 50px;
+  padding: 30px;
+  gap: 20px;
+}
+
+.button-span {
+  grid-column: span 2;
+}
+.flex-two {
+  display: flex;
+}
+#one {
+  opacity: 1;
+  background-color: hsl(6, 63%, 50%);
+}
+#two {
+  background-color: hsl(25, 98%, 40%);
+}
+#three {
+  background-color: hsl(176, 100%, 44%);
+}
+.section__display {
+  text-align: right;
+  border-radius: 13px;
+  line-height: 70px;
+  height: 130px;
+  font-size: 25px;
+  background-color: hsl(224, 36%, 15%);
+  padding: 20px;
+  font-size: 50px;
+  margin-top: 30px;
+}
+.button {
+  /* border: 0px solid #999; */
+  /* line-height: 70px; */
+  text-align: center;
+  padding: 15px;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  /* box-shadow: 0 5px 1px -1px hsl(28, 16%, 65%); */
+  border-radius: 10px;
+  background-color: hsl(30, 25%, 89%);
+  color: hsl(221, 14%, 31%);
+}
+.button:hover {
+  background-color: hsl(0, 0%, 100%);
+  transition: 0.1s ease-in-out;
+}
+
+/* Special btns */
+.special {
+  text-align: center;
+  padding: 15px;
+  cursor: pointer;
+  /* border: none; */
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 11px;
+  /* font-size: 28px; */
+}
+.reset {
+  box-shadow: 0 5px 1px -1px hsl(224, 19%, 57%);
+  background-color: hsl(225, 21%, 49%);
+}
+.reset:hover {
+  background-color: rgb(180, 180, 238);
+}
+
+.equal {
+  /* text-align: center;
+  padding: 15px;
+  cursor: pointer;
+  border: none; */
+  box-shadow: 0 5px 1px -1px hsl(6, 70%, 34%);
+  /* border-radius: 11px; */
+  background-color: hsl(6, 63%, 50%);
+  /* color: white; */
+}
+.equal:hover {
+  background-color: hsl(6, 77%, 65%);
+}
+
+.del {
+  box-shadow: 0 5px 1px -1px hsl(224, 19%, 57%);
+  background-color: hsl(225, 21%, 49%);
+}
+.del:hover {
+  background-color: rgb(180, 180, 238);
+}
