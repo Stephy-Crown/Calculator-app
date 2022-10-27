@@ -6,7 +6,7 @@
 
 .main-container {
   /* width: 90%; */
-  width: 100%;
+  /* width: 100%; */
   max-width: 1440px;
   background-color: hsl(222, 26%, 31%);
   /* display: flex;
@@ -19,7 +19,7 @@
 }
 
 .container {
-  width: 35%;
+  width: 40%;
   margin-inline: auto;
   /* margin-block: 2em */
 }
