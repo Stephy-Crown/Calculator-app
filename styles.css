@@ -6,20 +6,19 @@
 
 .main-container {
   /* width: 90%; */
-  /* width: 100%; */
+  width: 100%;
   max-width: 1440px;
   background-color: hsl(222, 26%, 31%);
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-inline: auto;
   /* margin-block: 80px; */
 
   padding-block: 1em;
 }
 
 .container {
-  width: 40%;
+  width: 35%;
   margin-inline: auto;
   /* margin-block: 2em */
 }
