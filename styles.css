@@ -4,23 +4,6 @@
   box-sizing: border-box;
 }
 
-/* media queries */
-@media (max-width: 500px) {
-  section {
-    width: 345px;
-  }
-  .header__flex {
-    width: 345px;
-  }
-  .container__flex {
-    width: 345px;
-  }
-
-  .main-container {
-    width: 500px;
-  }
-}
-
 .main-container {
   /* width: 90%; */
   width: 100%;
