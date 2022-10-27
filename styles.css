@@ -6,8 +6,8 @@
 @media (max-width: 500px) {
   .main-container {
     display: block;
-    width: 345px;
-    padding-inline: 2em;
+    width: 300px;
+    /* padding-inline: 2em; */
   }
 }
 
