@@ -5,9 +5,9 @@
 }
 @media (min-width: 500px) {
   .main-container {
-    display: block;
+    /* display: block; */
     /* margin-inline: auto; */
-    width: 365px;
+    width: 345px;
 
     /* margin-inline: 2em; */
   }
@@ -98,12 +98,13 @@
 .grid-container {
   display: grid;
   border-radius: 13px;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   padding-block: 30px;
   background-color: hsl(223, 31%, 20%);
   margin-top: 50px;
-  padding: 20px;
-  gap: 15px;
+  padding: 15px;
+  grid-gap: 15px;
+  width: 360px;
 }
 
 .button-span {
@@ -137,7 +138,7 @@
   /* border: 0px solid #999; */
   /* line-height: 70px; */
   text-align: center;
-  padding: 15px;
+  padding: 20px;
   font-size: 28px;
   font-weight: bold;
   cursor: pointer;
