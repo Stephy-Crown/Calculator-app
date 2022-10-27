@@ -3,10 +3,11 @@
   margin: 0;
   box-sizing: border-box;
 }
-@media (max-width: 500) {
+@media (max-width: 500px) {
   .main-container {
     display: block;
     width: 345px;
+    padding-inline: 2em;
   }
 }
 
